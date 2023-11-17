@@ -57,15 +57,6 @@ For those who understand the risk and still want to make bets on night to night 
 
 
 ## Reproduction instructions
-The best practice would be to include all of the items listed above in your README. Items 2 and 7 are particularly relevant for grading, as described below.
+All of the data for this project comes from web scraping nba.com using the [nba api package](https://github.com/swar/nba_api). My data collection notebook provides code and markdown to show how I got the data, and the code is reproducible using the Python in my notebooks.
 
-Writes a script so that reproducing the project is seamless on a designated platform
-
-This can be a Python script or a terminal script. It might involve downloading images and moving them into subfolders, installing packages with conda or pip, etc.
-
-Meets Objective (Passing Bar)
-Incorporates the basic elements of a reproducible project: a description of software used + how to get the data
-
-Ideally you would list the specific versions of packages used through an environment.yml or requirements.txt file. If you are using a platform like Kaggle, describe the additional pip install commands required beyond the base Kaggle environment.
-
-If your data is proprietary or otherwise not accessible to someone trying to reproduce your analysis, make sure you explain this clearly. If possible, include a sample or anonymized version of the data in the repo.
+The environment requirements can be found [here](https://github.com/ahendricks2/Capstone/blob/main/requirements.txt).
