@@ -4,6 +4,7 @@ Andrew Hendricks
 
 The legalization of sports betting in the USA has made gambing on sports increasingly commonplace: tens of millions of Americans now enjoy wagering on the outcomes of games each year. In this project, I web scrape player, team, and opponent data from nba.com and use regression models to predict how many points a player will score in an NBA game with a mean absolute error of about 4.4 points and an r squared of over 50%. My goal is to provide useful information to the many individuals like me who enjoy betting on the NBA.
 
+
 ![Brrok_Lopez](https://github.com/ahendricks2/Capstone/assets/141271148/d6a069e0-afb8-4bb1-a7b7-9455d051f837)
 
 This file is licensed under the Creative Commons Attribution-Share Alike 2.0 Generic license.
@@ -28,7 +29,7 @@ In this repository, I store the final notebook and non-technical presentation in
 
 
 ## Business Understanding and Data Understanding
-In [an article](https://www.usatoday.com/story/sports/sports-betting/2023/05/25/sports-betting-popularity-creates-gambling-addiction-concerns/70228634007/) from USA Today published in May of 2023, the author, Chris Bumbaca, shares two statistics that frame the popularity of sports betting: according to the American Gaming Association, 39.2 million people bet on sports the last 12 months preceding the article's publication, and a Harris Poll from November 2022 revealed that 71% of sports gamblers bet on sports at least once a week, with 20% of people betting on sports at least once a day.
+In [an article](https://www.usatoday.com/story/sports/sports-betting/2023/05/25/sports-betting-popularity-creates-gambling-addiction-concerns/70228634007/) in USA Today published in May of 2023, the author, Chris Bumbaca, shares two statistics that frame the popularity of sports betting: according to the American Gaming Association, 39.2 million people bet on sports the last 12 months preceding the article's publication, and a Harris Poll from November 2022 revealed that 71% of sports gamblers bet on sports at least once a week, with 20% of people betting on sports at least once a day.
 
 I am a fan of the NBA, and like millions of Americans, I occasionally enjoy wagering on games. The legalization of sports betting in the USA  and the rise in online sports betting platforms that resulted from it have made gambling on games increasingly accessible for fans like me. In general, I bet for fun and do not take it seriously, but my fandom and the popularity of sports betting inspired me to take on this project and build a regression model to predict how many points NBA players will score in their upcoming games. 
 
