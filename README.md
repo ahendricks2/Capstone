@@ -15,10 +15,15 @@ In this repository, I store the final notebook and non-technical presentation in
 [Non-Technical Presentation](https://github.com/ahendricks2/Capstone/blob/main/Non_Technical_Presentation.pdf)
 
 [Notebook 1](https://github.com/ahendricks2/Capstone/blob/main/1_Data_Collection.ipynb): Data Classification
+
 [Notebook 2](https://github.com/ahendricks2/Capstone/blob/main/2_Data_Cleaning.ipynb): Data Cleaning
+
 [Notebook 3a](): Feature Additions for Current Game
+
 [Notebook 3b](https://github.com/ahendricks2/Capstone/blob/main/3b_Feature_Addition_Upcoming_Game.ipynb): Feature Additions for Upcoming Game
+
 [Notebook 4](https://github.com/ahendricks2/Capstone/blob/main/4_Modeling.ipynb): Iterative Modeling Process
+
 [Notebook 5](https://github.com/ahendricks2/Capstone/blob/main/5_Final_Model_Evaluation.ipynb): Final Model Evaluation Notebook
 
 
@@ -35,8 +40,7 @@ Because the records I collect contain only single game performances for players 
 
 As any NBA fan knows, player scoring on a night to night basis fluctuates substantially for all kinds of reasons, which the following visualization of Mikal Bridges' night to night scoring demonstrates. Whether using my model or not, individuals who are interested in gambling on night to night player scoring should taking the variability of the data into account when placing bets.
 
-# BRIDGES SCORING GRAPHIC
-
+![image](https://github.com/ahendricks2/Capstone/assets/141271148/bc5e61d2-d0c2-42ca-bc47-ace491696813)
 
 
 ## Modeling and Evaluation
