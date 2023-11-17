@@ -4,8 +4,8 @@ Andrew Hendricks
 
 The legalization of sports betting in the USA has made gambing on sports increasingly commonplace: tens of millions of Americans now enjoy wagering on the outcomes of games each year. In this project, I web scrape player, team, and opponent data from nba.com and use regression models to predict how many points a player will score in an NBA game with a mean absolute error of about 4.4 points and an r squared of over 50%. My goal is to provide useful information to the many individuals like me who enjoy betting on the NBA.
 
+![Brrok_Lopez](https://github.com/ahendricks2/Capstone/assets/141271148/d6a069e0-afb8-4bb1-a7b7-9455d051f837)
 
-[Brook Lopez](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Brrok_Lopez.jpg/612px-Brrok_Lopez.jpg?20091101131259)
 This file is licensed under the Creative Commons Attribution-Share Alike 2.0 Generic license.
 
 
@@ -13,14 +13,13 @@ This file is licensed under the Creative Commons Attribution-Share Alike 2.0 Gen
 In this repository, I store the final notebook and non-technical presentation in the main repository and the more detailed notebooks in the notebooks folder.
 
 [Non-Technical Presentation](https://github.com/ahendricks2/Capstone/blob/main/Non_Technical_Presentation.pdf)
-Final Notebook
 
-Notebook 1: Data Classification
-Notebook 2: Data Cleaning
-Notebook 3a: Feature Additions for Current Game
-Notebook 3b: Feature Additions for Upcoming Game
-Notebook 4: Iterative Modeling Process
-Notebook 5: Final Model Evaluation Notebook
+[Notebook 1](https://github.com/ahendricks2/Capstone/blob/main/1_Data_Collection.ipynb): Data Classification
+[Notebook 2](https://github.com/ahendricks2/Capstone/blob/main/2_Data_Cleaning.ipynb): Data Cleaning
+[Notebook 3a](): Feature Additions for Current Game
+[Notebook 3b](https://github.com/ahendricks2/Capstone/blob/main/3b_Feature_Addition_Upcoming_Game.ipynb): Feature Additions for Upcoming Game
+[Notebook 4](https://github.com/ahendricks2/Capstone/blob/main/4_Modeling.ipynb): Iterative Modeling Process
+[Notebook 5](https://github.com/ahendricks2/Capstone/blob/main/5_Final_Model_Evaluation.ipynb): Final Model Evaluation Notebook
 
 
 ## Business Understanding and Data Understanding
@@ -43,12 +42,11 @@ As any NBA fan knows, player scoring on a night to night basis fluctuates substa
 ## Modeling and Evaluation
 Over the course of the project, I iterate through 13 models, including linear regression models, ensemble models, boosting models, and an LSTM neural network. The best performing in terms of both mean absolute error and r-squared is the gradient boosting regressor. On unseen data, the final model has an MAE of around 4.6 points and an r-squared of about 54%, which substantially outperforms the dummy.
 
-# Model Performance Graphic
+![image](https://github.com/ahendricks2/Capstone/assets/141271148/014331b3-500a-4ae7-aad3-cfce49688a9e)
 
 For the final iteration of the model that includes all of the data, the metrics improve to an MAE of around 4.4 points and an 4-squared of about 55%. The MAE is highest for players with higher scoring totals and lowest for players with lower scoring totals. The median absolute error is nearly a full point lower than the mean, which suggests that very wrong predictions have a big pull on the calculation of the mean, and the model performs about equally well at all points of the season.
 
-# Month to Month Model Performance Graphic
-
+![image](https://github.com/ahendricks2/Capstone/assets/141271148/0b487e44-3e26-4d0c-aa3f-4c072369d371)
 
 ## Conclusion
 One of the best uses for my model would be to contextualize the inherent randomness in betting on night to night player scoring outcomes. Even with access to hundreds of features and hundreds of thousands of box score records, my model cannot account for 45% of the variation in night to night player scoring outcomes. One of the major factors that my model does not take into account is the availability of teammates and opposing playeres, which can have a big influence on a player's minutes and usage on a given night. That would explain some of the 45%. Additionally, though, there is a substantial amount of randomness involved, so it would be a great idea not to gamble more than you are willing and able to lose on a given outcome. 
