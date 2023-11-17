@@ -15,17 +15,17 @@ In this repository, I store the final notebook and non-technical presentation in
 
 [Non-Technical Presentation](https://github.com/ahendricks2/Capstone/blob/main/Non_Technical_Presentation.pdf)
 
-[Notebook 1](https://github.com/ahendricks2/Capstone/blob/main/1_Data_Collection.ipynb): Data Classification
+[Notebook 1](https://github.com/ahendricks2/Capstone/blob/main/1_Data_Collection.ipynb): Data Classification - Introduces business problem and stakeholders, describes data source, and shows data collection process
 
-[Notebook 2](https://github.com/ahendricks2/Capstone/blob/main/2_Data_Cleaning.ipynb): Data Cleaning
+[Notebook 2](https://github.com/ahendricks2/Capstone/blob/main/2_Data_Cleaning.ipynb): Data Cleaning - Provides code needed to prepare data for analysis along with explanations
 
-[Notebook 3a](): Feature Additions for Current Game
+[Notebook 3a](): Feature Additions for Current Game - Explains the rationale and provides code for the inclusion of rolling and expanding averages
 
-[Notebook 3b](https://github.com/ahendricks2/Capstone/blob/main/3b_Feature_Addition_Upcoming_Game.ipynb): Feature Additions for Upcoming Game
+[Notebook 3b](https://github.com/ahendricks2/Capstone/blob/main/3b_Feature_Addition_Upcoming_Game.ipynb): Feature Additions for Upcoming Game - Explains the rationale and provides code for the inclusion of known information for the upcoming game
 
-[Notebook 4](https://github.com/ahendricks2/Capstone/blob/main/4_Modeling.ipynb): Iterative Modeling Process
+[Notebook 4](https://github.com/ahendricks2/Capstone/blob/main/4_Modeling.ipynb): Iterative Modeling Process - Contains feature selection and justification of feature inclusion, iterative approach to model development, interpretation of results, explantion of tuning decisions, and description of improvements
 
-[Notebook 5](https://github.com/ahendricks2/Capstone/blob/main/5_Final_Model_Evaluation.ipynb): Final Model Evaluation Notebook
+[Notebook 5](https://github.com/ahendricks2/Capstone/blob/main/5_Final_Model_Evaluation.ipynb): Final Model Evaluation Notebook - Justifies choice of metrics, demonstrates performance of final model, relates final model performance to business problem
 
 
 ## Business Understanding and Data Understanding
